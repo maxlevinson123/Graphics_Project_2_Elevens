@@ -13,7 +13,7 @@ public class Card {
     private boolean highlight;
 
     public Card(String suit, String value) {
-        this.highlight = true;
+        this.highlight = false;
         this.suit = suit;
         this.value = value;
         this.imageFileName = "card_"+suit+"_"+value+".png";
